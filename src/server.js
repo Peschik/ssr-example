@@ -24,7 +24,7 @@ server.get("*", async (req, res) => {
   const html = `
   <html>
     <head>
-      <title>Hello from server!!</title>
+      <title>Hello from server!!!</title>
       <link rel="stylesheet" href="${manifest["app.css"]}" />
     </head>
     <body>
