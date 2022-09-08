@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "postbuild": "node src/server.js",
     "pressr": "cross-env SSR=true vue-cli-service build",
     "ssr": "node src/server.js",
     "lint": "vue-cli-service lint"
